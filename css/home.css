@@ -1,9 +1,9 @@
-
- /* * Bootstrap v4.2.1 (https://getbootstrap.com/)
+/*!
+ * Bootstrap v4.2.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */
-
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -8027,14 +8027,14 @@ h1, h2, h3, h4, h5,
   position: relative;
   z-index: 0;
   width: 100%;
-  background: #fd7e14; }
+  background: #ffc107; }
   .wrap .phone {
     z-index: 1;
     font-weight: 200; }
     .wrap .phone span {
-      color: #000000; }
+      color: #000 }
     .wrap .phone a {
-      color: #000000;
+      color: #000 ;
       font-size: 12px; }
   @media (max-width: 767.98px) {
     .wrap .reg {
@@ -8567,7 +8567,7 @@ h1, h2, h3, h4, h5,
         color: #fff !important; }
 
 .ftco-intro {
-  background: #fd7e14; }
+  background: #ffc107; }
   .ftco-intro .intro {
     z-index: 0;
     position: relative; }
@@ -8577,7 +8577,7 @@ h1, h2, h3, h4, h5,
   background: #ffc107;
   padding: 30px; }
   .intro.color-1 {
-    background: #fd7e14; }
+    background: #ab4227; }
   .intro.color-2 {
     background: #ffc107; }
   .intro .icon {
